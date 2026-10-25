@@ -5,8 +5,6 @@ This project develops a machine-learning workflow to estimate the price of a use
 
 The project includes data cleaning, feature engineering, preprocessing, model comparison, hyperparameter tuning, evaluation, and a Streamlit web application for interactive predictions.
 
-> **Currency note:** The dataset's price currency has not been independently verified. The app's currency symbol should be confirmed against the original dataset source before describing predictions as USD or another specific currency.
-
 ## Dataset
 - **Source:** Kaggle — [Used Car Price Prediction Dataset](https://www.kaggle.com/datasets/taeefnajib/used-car-price-prediction-dataset)
 - **Working cleaned dataset:** 4,009 rows and 16 columns.
@@ -99,14 +97,14 @@ Used-Vehicle-Price-Prediction/
 ├── used_vehicle_price_model.joblib
 ├── requirements.txt
 ├── README.md
-├── Used_Vehicle_Price_Prediction.ipynb
-└── Graphs/
-    ├── model_comparison.png
-    ├── price_distribution.png
-    └── feature_importance.png
+├── Task03.ipynb
+├── Task03_Report.pdf
+└── Visualizations/
+    ├── 1.png
+    ├── 2.png
+    └── 3.png
 ```
 
-Use the actual filenames of your notebook and graphs when uploading them.
 
 ## Conclusion
 This project demonstrates a complete introductory regression workflow, from data preparation and feature engineering through model comparison and a local Streamlit interface. Random Forest performed best among the initial models, but its R² indicates that further data and modelling improvements are needed before the predictions should be relied on for real purchasing decisions.
